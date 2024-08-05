@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(159, 96, 218);
+    padding-inline: 20px;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.search-div{
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-div input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px ;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.search-div input:focus{
+    border: 2px solid rgb(215, 121, 215);
+}
+.search-div #search-btn{
+    height: 30px;
+}
+#emoji-div{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+#buttons-div{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+#buttons-div button{
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(108, 0, 208);
+    color: white;
+    transition-duration: 200ms;
+}
+#buttons-div button:hover{
+    background-color: blueviolet;
+}
+#buttons-div button:active{
+    transform: scale(1.1);
+}
